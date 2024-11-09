@@ -13,7 +13,8 @@ public class Queco extends Animal {
     public Queco (String Pelo, String Boca, String Cola, String Ojo, Integer Pata){
         super (Pelo, Boca, Cola, Ojo, Pata);
     }
-    @Override
+    
     public void sonido(){
-        System.out.println("El Queco Chilla");
+        System.out.println("EL Queco hace tac tac");
+}
 }

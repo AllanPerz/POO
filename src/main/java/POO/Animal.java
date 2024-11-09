@@ -55,12 +55,16 @@ public class Animal {
         this.Ojo = Ojo;
     }
 
-    public Integer getPata() {
+    public Integer getPatas() {
         return Patas;
     }
 
-    public void setPata(Integer Pata) {
+    public void setPatas(Integer Patas) {
         this.Patas = Patas;
    }
+    
+    void Sonido (){
+        
+    }
     
 }
