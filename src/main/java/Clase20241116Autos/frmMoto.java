@@ -4,12 +4,16 @@
  */
 package Clase20241116Autos;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author allan
  */
 public class frmMoto extends javax.swing.JFrame {
 
+    List <Moto> lista = new ArrayList <Moto>();
     /**
      * Creates new form frmMoto
      */
@@ -134,12 +138,12 @@ public class frmMoto extends javax.swing.JFrame {
 
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
         // TODO add your handling code here:
-        lista.add(new Carro(
+        lista.add(new Moto(
             txtModelo.getText(),
             String.valueOf(cboMarca.getSelectedItem()),
             txtColor.getText(),
-            String.valueOf(cboTransmision.getSelectedItem()),
-            String.valueOf(cboCombustible.getSelectedItem())
+            String.valueOf(cboTransmision.getSelectedItem())
+            
         ));
     }//GEN-LAST:event_btnAceptarActionPerformed
 
